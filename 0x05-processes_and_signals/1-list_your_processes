@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display all processes (a): user-oriented (u), w/wo TTY (x), show hierarchy (f)
+
+ps -auxf
