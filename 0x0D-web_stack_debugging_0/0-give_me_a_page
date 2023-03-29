@@ -1,0 +1,7 @@
+able File  5 lines (4 sloc)  140 Bytes
+
+#!/usr/bin/env bash
+# Run apache on holbertonschool/265-0 container
+
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
